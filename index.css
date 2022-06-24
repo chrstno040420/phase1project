@@ -1,0 +1,165 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  #footer {
+/* position: absolute; */
+    bottom: 0;
+    width: 100%;
+  }
+#week-calender{
+    display: grid;    
+        grid-template-columns: repeat(7, 1fr); 
+        grid-template-rows: 1fr; 
+        font-size: 15px;
+        
+
+}
+#week-calender div{    
+        display: inline-block;
+        text-align: left;
+        width:200px;
+        height: 150px;
+        break-after: avoid;
+        border: 2px solid black;
+        background-color: snow;
+        
+       
+}
+
+
+body {
+background-color: silver;
+
+}
+
+header {
+    text-align: center;
+   font-weight: bolder;
+   font-size: x-large; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+footer{
+    background-color:black;
+    text-align: center;
+    bottom:0;
+    width: 100%;
+    height: 300px;
+}
+footer img {
+   image-rendering: auto;
+}
+
+.layout {
+    width: 700px;
+    height: 300px;
+  
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-column-align: right;
+    gap: 500px;
+  }
+
+#pectorial{
+    display: grid;
+    /* grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); */
+
+}
+  #pectorial img{
+    max-width: 140px;
+
+    
+}
+
+#pectorial h1{
+    font-size: small;
+}
+
+
+#wide{
+  display: grid;
+  /* grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); */
+
+}
+#wide img{
+  max-width: 140px;
+
+  
+}
+
+#wide h1{
+  font-size: small;
+}
+
+#boulder{
+  display: grid;
+  /* grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); */
+
+}
+#boulder img{
+  max-width: 140px;
+
+  
+}
+
+#boulder h1{
+  font-size: small;
+}
+
+#trunk{
+  display: grid;
+  /* grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); */
+
+}
+#trunk img{
+  max-width: 140px;
+
+  
+}
+
+#trunk h1{
+  font-size: small;
+}
+
+#pack{
+  display: grid;
+  /* grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); */
+
+}
+#pack img{
+  max-width: 140px;
+
+  
+}
+
+#pack h1{
+  font-size: small;
+}
+
+#bold{
+  display: grid;
+  /* grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); */
+
+}
+#bold img{
+  max-width: 140px;
+
+  
+}
+
+#bold h1{
+  font-size: small;
+}
